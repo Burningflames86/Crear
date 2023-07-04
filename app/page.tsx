@@ -13,6 +13,7 @@ const livvic = Livvic({
 export default function Home() {
   return (
     <div className={livvic.className}>
+      <video className="mb-28" src="https://cdn.discordapp.com/attachments/1098638167827030016/1125824445915865228/Advertisement.mp4" autoPlay controls muted></video>
       <Login />
       <div className="mt-24">
         <h1 className="font-black text-7xl text-center">ShoutOut To</h1>
